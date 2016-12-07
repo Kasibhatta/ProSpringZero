@@ -20,7 +20,7 @@ public class HelloWorldMP implements MessageProvider {
     private int msgNumber;
     @Autowired
     public HelloWorldMP(Integer value){
-        this.message="The Number is: " + (value+msgNumber);
+        this.message="The Number is: " + (value+msgNumber) + " // Krishna //";
     }
     
     
